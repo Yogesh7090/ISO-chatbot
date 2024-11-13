@@ -1,6 +1,6 @@
 import streamlit as st
 from logo import add_logo
-from pages import about, contact  # Import other page modules as needed
+from pages import ISO_Document_Intelligence, ISO_Failure_Code_Intelligence  # Import other page modules as needed
 
 # Add your logo
 add_logo()
