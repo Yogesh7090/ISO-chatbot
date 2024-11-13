@@ -50,8 +50,8 @@ if page == "Home":
     </body>
     """, unsafe_allow_html=True)
 
-elif page == "About":
+elif page == "ISO_Document_Intelligence":
     about.app()  # Display content from about page
 
-elif page == "Contact":
+elif page == "ISO_Failure_Code_Intelligence":
     contact.app()  # Display content from contact page
