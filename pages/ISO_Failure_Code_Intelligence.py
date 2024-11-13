@@ -121,7 +121,7 @@ def template_formation(df, input):
 
 def response_generator(df, prompt, api_key):
     memory = ConversationBufferMemory()
-    llm = ChatOpenAI(model='gpt-4', temperature=0.2, api_key=api_key)
+    llm = ChatOpenAI(model='gpt-4o', temperature=0.2, api_key=api_key)
     prompt_template = template_formation(df, prompt)
     agent = create_pandas_dataframe_agent(llm, df, prefix=prompt_template, allow_dangerous_code=True, verbose=True)
     response = agent.invoke({"input": prompt, "history": memory.buffer}, handle_parsing_errors=True)
