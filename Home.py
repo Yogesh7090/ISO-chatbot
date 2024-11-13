@@ -6,7 +6,7 @@ from pages import ISO_Document_Intelligence, ISO_Failure_Code_Intelligence  # Im
 add_logo()
 
 # Sidebar for page navigation
-page = Home, ISO_Document_Intelligence, ISO_Failure_Code_Intelligence
+page = st.sidebar.selectbox("Select a Page",( 'Home', 'ISO_Document_Intelligence', 'ISO_Failure_Code_Intelligence'))
 
 # Display selected page content
 if page == "Home":
