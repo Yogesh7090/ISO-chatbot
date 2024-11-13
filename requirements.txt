@@ -5,3 +5,4 @@ pymupdf==1.24.10
 langchain_community
 langchain_experimental
 langchain_openai
+faiss-cpu
