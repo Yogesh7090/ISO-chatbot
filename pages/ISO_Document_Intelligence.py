@@ -78,7 +78,7 @@ if api_key_input and pdf_file:
             st.write(input)
         st.session_state.messages.append({"role": "user", "content": input})
 
-        llm = ChatOpenAI(model='gpt-4', temperature=0.2, api_key=api_key_input)
+        llm = ChatOpenAI(model='gpt-4o', temperature=0.2, api_key=api_key_input)
         prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:
 
             <context>
