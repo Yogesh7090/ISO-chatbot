@@ -7,3 +7,4 @@ langchain_experimental
 langchain_openai
 faiss-cpu
 openpyxl
+tabulate
