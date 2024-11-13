@@ -6,7 +6,7 @@ from pages import about, contact  # Import other page modules as needed
 add_logo()
 
 # Sidebar for page navigation
-page = st.sidebar.selectbox("Select a Page", ("Home", "About", "Contact"))
+page = st.sidebar.selectbox("Select a Page", ("Home", "ISO_Document_Intelligence", "ISO_Failure_Code_Intelligence"))
 
 # Display selected page content
 if page == "Home":
