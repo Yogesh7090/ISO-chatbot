@@ -13,8 +13,8 @@ from dotenv import load_dotenv, find_dotenv
 add_logo()
  
 
-_ = load_dotenv(find_dotenv())  # read local .env file
-openai.api_key = os.environ['OPENAI_API_KEY']
+# _ = load_dotenv(find_dotenv())  # read local .env file
+# openai.api_key = os.environ['OPENAI_API_KEY']
 
 st.markdown("<p style='font-size:32px; font-weight:bold;'>ISO QUEST</p>", unsafe_allow_html=True)
 st.write("<p style='font-size:32px; font-weight:bold;'>Insights from standard tables in ISO 14224 PDF</p>", unsafe_allow_html=True)
